@@ -1,2 +1,2 @@
 # SPECIAL-DESIGN-ONE
-![alt text](https://github.com/7amoAAS/CRUDS/blob/main/Preview.jpg)
+![alt text](https://awesomescreenshot.s3.amazonaws.com/image/3677370/32348204-676db649dc290ee437008310e7bcf1dc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220913T090307Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=78dc406468da74115c75c0a65aad17ef93242a4bbc678b089decfd5af9b36340)
