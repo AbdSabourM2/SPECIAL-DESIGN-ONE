@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Title -->
+		<title>Special Design</title>
+		<!-- FontAwesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+		<!-- Normalize Css File -->
+		<link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Main Css File -->
+		<link rel="stylesheet" href="dist/hosting.css" />
+	</head>
+	<body>
+		<!-- Settings Box -->
+		<div class="settings-box">
+			<div class="sett-icon">
+				<i class="icon fa fa-gear"></i>
+			</div>
+			<div class="settings-container ddd">
+				<div class="option-box">
+					<h4>Colors</h4>
+					<ul class="colors-list">
+						<li class="active" data-color="#370b84"></li>
+						<li data-color="#003865"></li>
+						<li data-color="#00adb5"></li>
+						<li data-color="#2d31fa"></li>
+						<li data-color="#ae0e38"></li>
+						<li data-color="#a66cff"></li>
+						<li data-color="#6bb50b"></li>
+						<li data-color="#04c2bc"></li>
+						<li data-color="#6c5fa7"></li>
+						<li data-color="#1691ca"></li>
+					</ul>
+					<hr />
+					<div class="option-box">
+						<h4>Background Option</h4>
+						<div class="bg-btns flex flex-jc-c flex-f-g">
+							<button class="yes active" data-background="yes">yes</button>
+							<button class="no" data-background="no">no</button>
+						</div>
+					</div>
+					<hr />
+					<div class="option-box">
+						<h4>Show Bullets</h4>
+						<div class="bu-btns flex flex-jc-c flex-f-g">
+							<button class="yes active" data-display="show">yes</button>
+							<button class="no" data-background="hide">no</button>
+						</div>
+					</div>
+					<hr />
+					<div class="re-btn flex flex-jc-c flex-f-g">
+						<button class="reset-options">Reset Options</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Nav Bullets -->
+		<div class="nav-bullets">
+			<div class="bullet" data-section="about">
+				<div class="tooltip">About</div>
+			</div>
+			<div class="bullet" data-section="services">
+				<div class="tooltip">Services</div>
+			</div>
+			<div class="bullet" data-section="features">
+				<div class="tooltip">Features</div>
+			</div>
+			<div class="bullet" data-section="skills">
+				<div class="tooltip">Skills</div>
+			</div>
+			<div class="bullet" data-section="contact">
+				<div class="tooltip">Contact Us</div>
+			</div>
+		</div>
+		<!-- Landing Page -->
+		<div class="landing-page">
+			<!-- Header -->
+			<div class="overlay" style="background-image: url(imgs/bg-0.jpg)"></div>
+			<div class="header-container">
+				<div class="container">
+					<div class="header-area flex flex-jc-sb flex-ai-c">
+						<div class="logo">
+							<img src="imgs/server.png" alt="" />
+						</div>
+						<div class="menu-toggle">
+							<span></span>
+						</div>
+						<div class="links-container hide-links">
+							<ul class="links show-links flex flex-ai-c">
+								<li>
+									<a href="#" data-section="about">about</a>
+								</li>
+								<li>
+									<a href="#" data-section="services">services</a>
+								</li>
+								<li>
+									<a href="#" data-section="features">features</a>
+								</li>
+								<li>
+									<a href="#" data-section="skills">skills</a>
+								</li>
+								<li>
+									<a href="#" data-section="works">works</a>
+								</li>
+								<li>
+									<a href="#" data-section="contact">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="overlay"></div>
+			</div>
+			<div class="container">
+				<div class="main-info flex flex-ai-c">
+					<div class="info-text">
+						<h2>
+							fast cloud we <br />
+							make hosting simple
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+							accusantium, ipsum aut expedita quasi quo libero unde aspernatur
+							commodi repellendus.
+						</p>
+						<button class="btn">
+							<a href="#">register now</a>
+						</button>
+					</div>
+					<div class="info-img">
+						<img src="imgs/hosting-png-3.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- Services -->
+			<div class="pop-services">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="main-ser flex flex-ai-c">
+						<div class="info">
+							<div class="icon">
+								<img src="imgs/hosting-services.png" alt="" />
+							</div>
+							<h2>hosting services</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium, ipsum aut expedita quasi quo.
+							</p>
+						</div>
+						<div class="info">
+							<div class="icon">
+								<img src="imgs/hosting-services.png" alt="" />
+							</div>
+							<h2>hosting services</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium, ipsum aut expedita quasi quo.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about" id="about">
+			<div class="container">
+				<div class="about-container flex flex-ai-c">
+					<div class="info-text">
+						<h2>
+							about <br />
+							access cloud hosting
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+							accusantium, ipsum aut expedita quasi quo libero unde aspernatur
+							commodi repellendus.
+						</p>
+						<button class="btn">
+							<a href="#">read more</a>
+						</button>
+					</div>
+					<div class="info-img">
+						<img src="imgs/hosting-png-1.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Services -->
+		<div class="services" id="services">
+			<div class="container">
+				<div class="text-info">
+					<h2>hosting services</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+						accusantium, ipsum aut expedita quasi quo libero unde aspernatur
+						commodi repellendus.
+					</p>
+				</div>
+				<div class="container-box grid grid-c-3">
+					<div class="box">
+						<div class="imgs-container">
+							<div class="icon">
+								<img src="imgs/data-server.png" alt="" />
+							</div>
+							<div class="imgs">
+								<img src="imgs/Background-box.png" alt="" />
+								<img src="imgs/background-box-shadow.png" alt="" />
+							</div>
+						</div>
+						<div class="info">
+							<h4>web hosting</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+						<div class="ser-btn">
+							<button>></button>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgs-container">
+							<div class="icon">
+								<img src="imgs/host.png" alt="" />
+							</div>
+							<div class="imgs">
+								<img src="imgs/Background-box.png" alt="" />
+								<img src="imgs/background-box-shadow.png" alt="" />
+							</div>
+						</div>
+						<div class="info">
+							<h4>vps hosting</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+						<div class="ser-btn">
+							<button class="lern-more">learn more</button>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgs-container">
+							<div class="icon">
+								<img src="imgs/cloud-data.png" alt="" />
+							</div>
+							<div class="imgs">
+								<img src="imgs/Background-box.png" alt="" />
+								<img src="imgs/background-box-shadow.png" alt="" />
+							</div>
+						</div>
+						<div class="info">
+							<h4>dedicated server</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+						<div class="ser-btn">
+							<button>></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hosting-info">
+				<div class="container">
+					<div class="hostring-container flex">
+						<div class="img">
+							<img src="imgs/hosting-png-2.png" alt="" />
+						</div>
+						<div class="info-text">
+							<h4>why access cloud hosting?</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+							<ul>
+								<li>
+									<i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+									amet consectetur, adipisicing elit. Facere.
+								</li>
+								<li>
+									<i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit
+									amet consectetur, adipisicing elit.
+								</li>
+								<li>
+									<i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit
+									amet consectetur, adipisicing.
+								</li>
+								<li>
+									<i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit
+									amet.
+								</li>
+								<li>
+									<i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit
+									amet consectetur, adipisicing elit.
+								</li>
+							</ul>
+							<button>Read More <i class="fa-solid fa-arrow-right"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Features -->
+		<div class="features">
+			<div class="container">
+				<h2>hosting features</h2>
+				<div class="features-container grid grid-c-3 grid-r-2">
+					<div class="box">
+						<div class="icon">
+							<img src="imgs/shield.png" alt="" />
+						</div>
+						<div class="info-text">
+							<h4>99.99% Uptime</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<img src="imgs/server-2.png" alt="" />
+						</div>
+						<div class="info-text">
+							<h4>NvMe Hosting</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<img src="imgs/browser.png" alt="" />
+						</div>
+						<div class="info-text">
+							<h4>Check Of CPanel Or Plesk</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<img src="imgs/chat.png" alt="" />
+						</div>
+						<div class="info-text">
+							<h4>Lite Speed Web Servers</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<img src="imgs/backup.png" alt="" />
+						</div>
+						<div class="info-text">
+							<h4>Free Weekly Backup</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<img src="imgs/ssl.png" alt="" />
+						</div>
+						<div class="info-text">
+							<h4>Free SSL Certificate</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+								accusantium.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Hosting Plans -->
+		<div class="hosting-plans" id="plans">
+			<div class="container">
+				<h2>web hosting plans</h2>
+				<p>Choose what's best</p>
+				<div class="plans-container flex">
+					<div class="plan">
+						<div class="icon">
+							<img src="imgs/king-icon.png" alt="" />
+						</div>
+						<h4>lite</h4>
+						<span>$8.99</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+						<ul>
+							<li><i class="fa-solid fa-check"></i> Unlimited sending</li>
+							<li><i class="fa-solid fa-check"></i> Email marketing</li>
+							<li><i class="fa-solid fa-check"></i> Send newsletters</li>
+							<li><i class="fa-solid fa-check"></i> 50 GB Memory</li>
+						</ul>
+						<button>See All Plans</button>
+					</div>
+					<div class="plan best">
+						<div class="icon">
+							<img src="imgs/badge.png" alt="" />
+						</div>
+						<h4>plus</h4>
+						<span>$8.99</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+						<ul>
+							<li><i class="fa-solid fa-check"></i> Unlimited sending</li>
+							<li><i class="fa-solid fa-check"></i> Email marketing</li>
+							<li><i class="fa-solid fa-check"></i> Send newsletters</li>
+							<li><i class="fa-solid fa-check"></i> 100 GB Memory</li>
+						</ul>
+						<button>See All Plans</button>
+					</div>
+					<div class="plan">
+						<div class="icon">
+							<img src="imgs/star-icon.png" alt="" />
+						</div>
+						<h4>enterprise</h4>
+						<span>$8.99</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+						<ul>
+							<li><i class="fa-solid fa-check"></i> Unlimited sending</li>
+							<li><i class="fa-solid fa-check"></i> Email marketing</li>
+							<li><i class="fa-solid fa-check"></i> Send newsletters</li>
+							<li><i class="fa-solid fa-check"></i> 200 GB Memory</li>
+						</ul>
+						<button>See All Plans</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Our Skills -->
+		<div class="main-skills" id="skills">
+			<div class="container">
+				<div class="skills-container">
+					<div class="overlay"></div>
+					<h2>Skills</h2>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+						Reprehenderit expedita in quisquam modi itaque! Sunt nemo, tempora
+						dolores laboriosam quia corrupti distinctio nihil nam ut,
+						consectetur excepturi blanditiis reiciendis harum.
+					</p>
+					<div class="skills">
+						<div class="skill-box">
+							<div class="skill-name">Customer Service</div>
+							<div class="skill-progress">
+								<span data-progress="90"></span>
+							</div>
+						</div>
+						<div class="skill-box">
+							<div class="skill-name">Efficiency</div>
+							<div class="skill-progress">
+								<span data-progress="95"></span>
+							</div>
+						</div>
+						<div class="skill-box">
+							<div class="skill-name">Physically Fit</div>
+							<div class="skill-progress">
+								<span data-progress="80"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Our Past Works -->
+		<div class="past-works" id="works">
+			<div class="container">
+				<div class="info-text">
+					<h2>Our Past Works</h2>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
+						alias et eveniet corporis, voluptatibus porro. Placeat voluptatem
+						quidem ab, accusantium quis perspiciatis eum blanditiis. Ullam
+						maxime quaerat maiores expedita odit.
+					</p>
+				</div>
+				<div class="box-img">
+					<img src="imgs/our-works-1.jpg" alt="Image One" />
+					<img src="imgs/our-works-2.jpg" alt="Image Two" />
+					<img src="imgs/our-works-3.jpg" alt="Image Three" />
+					<img src="imgs/our-works-4.jpg" alt="Image Four" />
+				</div>
+			</div>
+		</div>
+		<!-- Timeline -->
+		<div class="timeline">
+			<div class="container">
+				<div class="timeline-content">
+					<div class="year">2018</div>
+					<div class="left">
+						<div class="content">
+							<h3>Testing Heading</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Exercitationem, libero, porro sapiente quae earum facilis
+								repellat, itaque adipisci officia ratione nostrum nam aut
+								similique? Quod id ex delectus velit doloribus.
+							</p>
+						</div>
+					</div>
+					<div class="right clearfix">
+						<div class="content">
+							<h3>Testing Heading</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Exercitationem, libero, porro sapiente quae earum facilis
+								repellat, itaque adipisci officia ratione nostrum nam aut
+								similique? Quod id ex delectus velit doloribus.
+							</p>
+						</div>
+					</div>
+					<div class="right clearfix">
+						<div class="content">
+							<h3>Testing Heading</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Exercitationem, libero, porro sapiente quae earum facilis
+								repellat, itaque adipisci officia ratione nostrum nam aut
+								similique? Quod id ex delectus velit doloribus.
+							</p>
+						</div>
+					</div>
+					<div class="left clearfix">
+						<div class="content">
+							<h3>Testing Heading</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Exercitationem, libero, porro sapiente quae earum facilis
+								repellat, itaque adipisci officia ratione nostrum nam aut
+								similique? Quod id ex delectus velit doloribus.
+							</p>
+						</div>
+					</div>
+					<div class="left clearfix">
+						<div class="content">
+							<h3>Testing Heading</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Exercitationem, libero, porro sapiente quae earum facilis
+								repellat, itaque adipisci officia ratione nostrum nam aut
+								similique? Quod id ex delectus velit doloribus.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Js File -->
+		<!-- Testimonials -->
+		<div class="testimonials">
+			<div class="title">
+				<p>Testimonials</p>
+				<h2>what the people thinks about us</h2>
+			</div>
+			<div class="container">
+				<div class="testimonials-container flex">
+					<div class="box">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Laudantium dignissimos reprehenderito.
+						</p>
+						<div class="person-box">
+							<div class="img">
+								<img src="imgs/woman-1.png" alt="" />
+							</div>
+							<div class="person-info">
+								<h4>Anegla Orkifer</h4>
+								<p>Marketing Management</p>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Laudantium dignissimos reprehenderito.
+						</p>
+						<div class="person-box">
+							<div class="img">
+								<img src="imgs/woman-2.png" alt="" />
+							</div>
+							<div class="person-info">
+								<h4>Anegla Orkifer</h4>
+								<p>Marketing Management</p>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Laudantium dignissimos reprehenderito.
+						</p>
+						<div class="person-box">
+							<div class="img">
+								<img src="imgs/woman-3.png" alt="" />
+							</div>
+							<div class="person-info">
+								<h4>Anegla Orkifer</h4>
+								<p>Marketing Management</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Us -->
+		<div class="container">
+			<div class="contact" id="contact">
+				<div class="background"></div>
+				<div class="request">
+					<h2>contact us</h2>
+					<form action="" method="get">
+						<div class="first-group flex flex-f-g">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="form-group">
+								<label>Phone</label>
+								<input type="tel" name="number" id="number" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label>E-mail</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<div class="form-group">
+							<label>Message</label>
+							<textarea name="message" id="" cols="30" rows="10"></textarea>
+						</div>
+						<div class="submit">
+							<input type="submit" value="Send" />
+						</div>
+					</form>
+				</div>
+				<div class="border"></div>
+				<div class="company-info">
+					<h2>our company</h2>
+					<div class="info-text">
+						<div class="text">
+							<span>Email</span>
+							<p>mo7am4d90@gmail.com</p>
+						</div>
+						<div class="text">
+							<span>Phone</span>
+							<p>01*******37</p>
+						</div>
+						<div class="text">
+							<span>Address</span>
+							<p>Rm 13.2.14F No.25 Zhongzheng 3d Rd.xinxing</p>
+						</div>
+					</div>
+					<div class="map">
+						<div class="loc-map">
+							<i class="fa-solid fa-location-dot"></i>
+							<img src="imgs/map.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="info-footer">
+			<div class="container">
+				<div class="footer-sec">
+					<div class="restaurantly">
+						<h4>restaurantly</h4>
+						<p>Rm 13.2.14F No.25 Zhongzheng 3d Rd.xinxing</p>
+						<span>Phone</span>
+						<p>01*******37</p>
+						<span>Email</span>
+						<p>mo7am4d90@gmail.com</p>
+						<div class="social-links">
+							<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							<a href="#"><i class="fa-brands fa-skype"></i></a>
+							<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+						</div>
+					</div>
+					<div class="useful-links">
+						<h4>useful links</h4>
+						<ul class="links">
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#" data-section="about">about</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#" data-section="services">services</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#" data-section="features">features</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#" data-section="skills">skills</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#" data-section="works">works</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#" data-section="contact">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="our-services">
+						<h4>our services</h4>
+						<ul class="footer-ser">
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#">jump start</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i> <a href="#">business</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#">business plus</a>
+							</li>
+							<li>
+								<i class="fa-solid fa-caret-right"></i>
+								<a href="#">super power</a>
+							</li>
+						</ul>
+					</div>
+					<div class="our-newsletter">
+						<h4>our newsletter</h4>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Voluptatibus reiciendis.
+						</p>
+						<div class="gmail-input">
+							<input type="email" name="email" />
+							<button>subscribe</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<p>
+				Designed <span>by <a href="#">everyone in this planet</a></span>
+			</p>
+		</footer>
+		<script src="js/app.js"></script>
+	</body>
+</html>

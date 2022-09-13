@@ -1,0 +1,57 @@
+// Colors
+
+// Main Colors
+$clr-1: #370b84;
+$clr-2: #003865;
+$clr-3: #00adb5;
+$clr-4: #2d31fa;
+$clr-5: #ae0e38;
+$clr-6: #a66cff;
+$clr-7: #6bb50b;
+$clr-8: #04c2bc;
+$clr-9: #6c5fa7;
+$clr-10: #1691ca;
+
+// Primary
+$clr-primary-1: rgba(22, 5, 109, 1);
+$clr-primary-2: rgba(55, 11, 132, 1);
+$clr-primary-3: rgba(90, 57, 187, 1);
+$clr-primary-4: rgba(22, 14, 97, 1);
+$clr-primary-5: rgba(245, 46, 201, 1);
+$clr-primary-5-hover: rgb(236, 31, 192);
+$clr-primary-6: rgb(212, 46, 176);
+$clr-primary-7: rgba(1, 131, 253, 1);
+
+// Grey
+$clr-grey-1: rgba(18, 127, 228, 1);
+$clr-grey-2: rgba(1, 76, 144, 1);
+$clr-grey-3: rgba(255, 255, 255, 0.898);
+$clr-grey-4: rgba(105, 88, 184, 1);
+$clr-grey-5: #eee;
+$clr-grey-6: #7f8487;
+
+$clr-background: rgba(248, 249, 254, 1);
+$clr-white: #fff;
+$clr-black: #222;
+
+// Typography
+
+// Body Copy
+$extra-larg-fz: 2.5rem; // 40px
+$larg-fz: 1.5625rem;
+$medium-fz: 1.125rem; // 18px
+$small-fz: 0.6875rem; // 11px
+$vrey-small-fz: 0.5rem;
+$transition: all 0.3s linear;
+$normal-transition: all 0.3s;
+$spacing: 0.25rem;
+$radius: 0.5rem;
+$l-radius: 1.25rem;
+$opacity: 0.9;
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+$max-width: 1080px;
+$fixed-width: 620px;
+
+// Font
+$family: "Ubuntu", monospace;
